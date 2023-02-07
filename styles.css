@@ -1,0 +1,89 @@
+html, body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+}
+
+.header {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.hlogoandlinks{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hlinks {
+    display: flex;
+    gap: 8px;
+}
+
+.hcontent {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.hsignup {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.randinf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.boxes{
+    display: flex;
+    gap: 8px;
+}
+
+.box1, .box2, .box3, .box4 {
+    width: 100px;
+    height: 100px;
+    border: 5px;
+    background-color: blueviolet;
+    border-color: yellow;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    flex: 1;
+}
+
+
+.signupbox{
+    display: flex;
+    justify-content: space-around;
+}
+
+.signupbox .bluebox {
+    background-color: blue;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: 100px;
+    padding: 10px;
+    gap: 10px;
+}
+
+
+
+.copyright{
+    display: flex;
+    justify-content: center;
+}
